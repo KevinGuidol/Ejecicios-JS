@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.principalNav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body {
+    min-height: 100dvh;
+}
+
+footer {
+    position: fixed;
+    width: 100dvh;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.948);
+    bottom: 0px;
+    color: white;
+}
+
+#sectPrincipalProduct {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.productCard {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightblue;
+    border: 2px solid black ;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
